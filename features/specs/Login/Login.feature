@@ -1,9 +1,13 @@
-#language: pt
+#language: pt-br
+
+
 
 Funcionalidade: Realizar o login 
-  Realizar login utilizando usuário e senha
-
-    Contexto:
+                Para que facilite a tomada de decisão na hora de utilizar o SpecFlow
+                Eu, como usuário
+                Desejo conhecer a documentação oficial. 
+    @mytag
+    Contexto: Realizar login
         Dado que eu navego pela url do sistema
         E fecho o acesso inicial
         Quando informo o usuario
